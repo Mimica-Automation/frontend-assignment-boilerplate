@@ -11,9 +11,6 @@ const slice = createSlice({
   initialState,
 
   reducers: {},
-
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/no-empty-function
-  extraReducers: builder => {},
 });
 
 export const { actions, reducer } = slice;
